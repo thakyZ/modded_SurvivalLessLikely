@@ -1,0 +1,46 @@
+Blueprints.sbc
+	All refining reduced to 60% of base, Uranium reduced to 10%
+
+Characters.sbc
+	Hydrogen Capacity reduced to 80 from 125
+	Oxygen Capacity reduced to 40 from 60
+	Jetpack Thrust reduced to 2000 from 3200
+	Jetpack Consumption per G increased to 800 from 250
+	OxygenConsumption increased to 0.63 from 0.063
+
+Components.sbc
+
+
+PhysicalItems.sbc
+	Oxygen bottle capacity reduced to 60 from 100
+	Hydrogen bottle capacity reduced to 120 from 1000
+	Ice volume increased to 0.6 from 0.37
+
+Data\CubeBlocks_Production.sbc
+	IcetoGas ratio for Oxygen production reduced to 0.1 from 10
+
++-----------------------+
+| Chages made by thakyZ |
++-----------------------+
+
+Characters.sbc
+  Hydrogen Capacity reverted to 125
+	Oxygen Capacity reverted to 60
+	Oxygen Consumption lowered to 0.315
+
+PhysicalItems.sbc
+  Oxygen Bottle capacity reverted to 100
+	Oxygen Bottle volume reverted to 120
+	Hydrogen Bottle capacity reverted to 160
+
+CubeBlocks\CubeBlocks_Production.sbc
+
+
+Components.sbc
+
+
+Blueprints.sbc
+
+
+BlueprintClasses.sbc
+
