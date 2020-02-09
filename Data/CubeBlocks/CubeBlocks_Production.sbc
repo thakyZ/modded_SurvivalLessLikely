@@ -234,7 +234,7 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>Oxygen</SubtypeId>
           </Id>
-          <IceToGasRatio>0.08</IceToGasRatio>
+          <IceToGasRatio>1.0</IceToGasRatio>
         </GasInfo>
         <GasInfo>
           <Id>
