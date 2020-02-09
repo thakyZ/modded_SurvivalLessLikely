@@ -96,7 +96,7 @@
         <Material>Astronaut_head</Material>
         <Material>Spacesuit_hood</Material>
       </MaterialsDisabledIn1st>
-      <OxygenConsumption>0.315</OxygenConsumption>
+      <OxygenConsumption>0.63</OxygenConsumption>
       <OxygenConsumptionMultiplier>1</OxygenConsumptionMultiplier>
       <OxygenSuitRefillTime>10000</OxygenSuitRefillTime>
       <MinOxygenLevelForSuitRefill>0.75</MinOxygenLevelForSuitRefill>
@@ -111,7 +111,7 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>Hydrogen</SubtypeId>
           </Id>
-          <MaxCapacity>125</MaxCapacity>
+          <MaxCapacity>80</MaxCapacity>
           <Throughput>1000</Throughput>
         </Resource>
         <Resource>
@@ -120,7 +120,7 @@
             <SubtypeId>Oxygen</SubtypeId>
           </Id>
           <Throughput>1000</Throughput>
-          <MaxCapacity>60</MaxCapacity>
+          <MaxCapacity>40</MaxCapacity>
         </Resource>
       </SuitResourceStorage>
 
@@ -143,11 +143,11 @@
         <ThrustProperties>
           <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-          <ForceMagnitude>3200</ForceMagnitude>
+          <ForceMagnitude>2000</ForceMagnitude>
           <SlowdownFactor>1</SlowdownFactor>
           <MinPowerConsumption>0.000000001</MinPowerConsumption>
           <MaxPowerConsumption>0.0001</MaxPowerConsumption>
-          <ConsumptionFactorPerG>250</ConsumptionFactorPerG>
+          <ConsumptionFactorPerG>800</ConsumptionFactorPerG>
 
           <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
           <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -540,7 +540,7 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>Hydrogen</SubtypeId>
           </Id>
-          <MaxCapacity>125</MaxCapacity>
+          <MaxCapacity>80</MaxCapacity>
           <Throughput>1000</Throughput>
         </Resource>
         <Resource>
@@ -549,7 +549,7 @@
             <SubtypeId>Oxygen</SubtypeId>
           </Id>
           <Throughput>1000</Throughput>
-          <MaxCapacity>60</MaxCapacity>
+          <MaxCapacity>40</MaxCapacity>
         </Resource>
       </SuitResourceStorage>
 
@@ -572,11 +572,11 @@
         <ThrustProperties>
           <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-          <ForceMagnitude>3200</ForceMagnitude>
+          <ForceMagnitude>2000</ForceMagnitude>
           <SlowdownFactor>5</SlowdownFactor>
           <MinPowerConsumption>0.000000001</MinPowerConsumption>
           <MaxPowerConsumption>0.0001</MaxPowerConsumption>
-          <ConsumptionFactorPerG>250</ConsumptionFactorPerG>
+          <ConsumptionFactorPerG>800</ConsumptionFactorPerG>
 
           <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
           <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
