@@ -120,7 +120,7 @@
             <SubtypeId>Oxygen</SubtypeId>
           </Id>
           <Throughput>1000</Throughput>
-          <MaxCapacity>40</MaxCapacity>
+          <MaxCapacity>60</MaxCapacity>
         </Resource>
       </SuitResourceStorage>
 
@@ -143,17 +143,17 @@
         <ThrustProperties>
           <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-          <ForceMagnitude>2000</ForceMagnitude>
-          <SlowdownFactor>1</SlowdownFactor>
+          <ForceMagnitude>3200</ForceMagnitude>
+          <SlowdownFactor>5</SlowdownFactor>
           <MinPowerConsumption>0.000000001</MinPowerConsumption>
           <MaxPowerConsumption>0.0001</MaxPowerConsumption>
           <ConsumptionFactorPerG>800</ConsumptionFactorPerG>
 
           <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
           <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-          <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-          <EffectivenessAtMaxInfluence>0.5</EffectivenessAtMaxInfluence>
-		  <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+          <EffectivenessAtMinInfluence>0.67</EffectivenessAtMinInfluence>
+          <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+		      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
           <FuelConverter>
             <FuelId>
@@ -572,7 +572,7 @@
         <ThrustProperties>
           <!-- Properties applied once to each direction -->
           <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-          <ForceMagnitude>2000</ForceMagnitude>
+          <ForceMagnitude>3200</ForceMagnitude>
           <SlowdownFactor>5</SlowdownFactor>
           <MinPowerConsumption>0.000000001</MinPowerConsumption>
           <MaxPowerConsumption>0.0001</MaxPowerConsumption>
