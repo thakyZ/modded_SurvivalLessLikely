@@ -24,14 +24,20 @@ Data\CubeBlocks_Production.sbc
 +-----------------------+
 
 Characters.sbc
-  Hydrogen Capacity reverted to 125
-	Oxygen Capacity reverted to 60
+	Oxygen Capacity raised to 60 from 40
+	Jetpack Force raised to 3200 from 2000
+	Jetpack Slowdown Factor raised to 5 from 1
+	Jetpack ConsumptionPerG raised to 4000 from 800
 
 PhysicalItems.sbc
-	Oxygen Bottle volume reverted to 120
+	Ice Volume changed to 0.4 from 0.6
+	Oxygen Bottle capacity changed to 100 from 60
 
 CubeBlocks\CubeBlocks_Production.sbc
-
+	Ice To Oxygen Ratio changed to 1.0 from 0.1 for large H2/O2 Generator
+	Ice To Oxygen Ratio changed to 0.8 from 0.08 for small H2/O2 Generator
+	Ice To Hydrogen Ratio Changed to 20 from 10 for large H2/O2 Generator
+	Ice To Hydrogen Ratio Changed to 20 from 10 for small H2/O2 Generator
 
 Components.sbc
 
