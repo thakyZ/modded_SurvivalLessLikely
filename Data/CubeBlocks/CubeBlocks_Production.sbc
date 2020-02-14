@@ -196,14 +196,14 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>Oxygen</SubtypeId>
           </Id>
-          <IceToGasRatio>0.3</IceToGasRatio>
+          <IceToGasRatio>1.0</IceToGasRatio>
         </GasInfo>
         <GasInfo>
           <Id>
             <TypeId>GasProperties</TypeId>
             <SubtypeId>Hydrogen</SubtypeId>
           </Id>
-          <IceToGasRatio>10</IceToGasRatio>
+          <IceToGasRatio>20</IceToGasRatio>
         </GasInfo>
       </ProducedGases>
       <BlueprintClasses>
@@ -304,14 +304,14 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>Oxygen</SubtypeId>
           </Id>
-          <IceToGasRatio>1.0</IceToGasRatio>
+          <IceToGasRatio>0.8</IceToGasRatio>
         </GasInfo>
         <GasInfo>
           <Id>
             <TypeId>GasProperties</TypeId>
             <SubtypeId>Hydrogen</SubtypeId>
           </Id>
-          <IceToGasRatio>10</IceToGasRatio>
+          <IceToGasRatio>20</IceToGasRatio>
         </GasInfo>
       </ProducedGases>
       <BlueprintClasses>
